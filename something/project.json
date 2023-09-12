@@ -1,0 +1,16 @@
+{
+  "name": "demo",
+  "targets": {
+    "sample": {
+      "inputs": [
+        {
+          "runtime": "node -v"
+        }
+      ],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node -v"
+      }
+    }
+  }
+}
